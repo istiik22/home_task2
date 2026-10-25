@@ -12,8 +12,8 @@ class HeaderWidget extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('Where do you', style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold)),
-              Text('want to go?', style: TextStyle(color: mainYellow, fontSize: 30, fontWeight: FontWeight.bold))
+              Text('Which quad do', style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold)),
+              Text('you want to ride?', style: TextStyle(color: mainYellow, fontSize: 30, fontWeight: FontWeight.bold))
             ]
           ),
         ),
@@ -30,7 +30,7 @@ class HeaderWidget extends StatelessWidget {
               children: [
                 Icon(Icons.search, color: Colors.grey),
                 SizedBox(width: 10),
-                Text('Search', style: TextStyle(color: Colors.grey))
+                Text('Search quads', style: TextStyle(color: Colors.grey))
               ]
             )
           )

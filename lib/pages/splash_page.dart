@@ -20,7 +20,7 @@ class SplashPage extends StatelessWidget {
         ),
         Align(
           alignment: Alignment.center,
-          child: Icon(Icons.airplanemode_on, color: Colors.black, size: 80),
+          child: Icon(Icons.two_wheeler, color: Colors.black, size: 80),
         ),
         Align(
           alignment: Alignment.center,

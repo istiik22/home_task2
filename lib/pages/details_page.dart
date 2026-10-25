@@ -76,7 +76,7 @@ class DetailsPage extends StatelessWidget {
             backgroundColor: Colors.transparent,
             iconTheme: IconThemeData(color: mainYellow),
             title: Center(
-              child: Icon(Icons.airplanemode_on, color: mainYellow)
+              child: Icon(Icons.two_wheeler, color: mainYellow)
             ),
             actions: [
               Container(

@@ -14,7 +14,7 @@ class LandingPage extends StatelessWidget {
         backgroundColor: primaryGray,
         iconTheme: IconThemeData(color: mainYellow),
         title: Center(
-          child: Icon(Icons.airplanemode_on, color: mainYellow)
+          child: Icon(Icons.two_wheeler, color: mainYellow)
         ),
         actions: [
           Container(
@@ -31,7 +31,7 @@ class LandingPage extends StatelessWidget {
           color: mainYellow,
           alignment: Alignment.bottomLeft,
           padding: EdgeInsets.all(20),
-          child: Icon(Icons.airplanemode_on, size: 80, color: Colors.black)
+          child: Icon(Icons.two_wheeler, size: 80, color: Colors.black)
         )
       ),
       body: Container(
